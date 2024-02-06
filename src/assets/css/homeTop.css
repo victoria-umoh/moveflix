@@ -1,0 +1,126 @@
+.movie-poster {
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Optional: To hide any overflowing content */
+    position: relative;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+#home {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
+    url('../images/movieposter.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    position: relative;
+}
+/* LOGIN */
+#login {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    width: 40vw;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.forgotpass{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: thin;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* LOGIN */
+.brand-name{
+    color: #ff0000;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.buttons{
+    background-color: #e50914;
+    border-radius: 10%;
+}
+.buttons:hover{
+    background-color: #ce020c;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.content-head{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;   
+}
+
+.content-items{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.signup-input:focus-within{
+    background: rgba(15,16,15,0.8);
+    color: whitesmoke;
+}
+
+.signup-input {
+    width: 500px; 
+    height: 65px; 
+    background: rgba(15,16,15,0.8); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7);
+  }
+
+.login-input:focus-within{
+    background: rgba(15,16,15,0.8);
+    color: whitesmoke;
+}
+
+.login-input {
+    width: 350px; 
+    height: 65px; 
+    background: rgba(15,16,15,0.8);
+    border: 1px solid #ccc; 
+    /* border-radius: 5px; */
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .login-input::placeholder {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-left: 5px;
+    font-weight: light;
+  }
+  .signup-input::placeholder {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-left: 5px;
+    font-weight: light;
+  }
+
+  .login-button{
+    background-color: #e50914;
+    /* border-radius: 10px; */
+    width: 250px;
+    height: 65px;
+  }
+
+  .login-button:hover{
+    background-color: #ce020c;
+    color: #fff;
+    transition: 0.3s;
+    }
