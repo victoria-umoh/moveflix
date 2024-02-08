@@ -7,6 +7,9 @@ import ContactPage from '../pages/ContactPage';
 import PurchasePage from '../pages/PurchasePage';
 import PrivacyPage from '../pages/PrivacyPage';
 import RefundPage from '../pages/RefundPage';
+import MoviesPage from '../pages/MoviesPage';
+import TvSeriesPage from '../pages/TvSeriesPage';
+import MoviesSearchPage from '../pages/MoviesSearchPage';
 
 // double click to select a line, then with your alt key, you can select multiple lines
 export class AppRoute extends Component {
@@ -17,6 +20,9 @@ export class AppRoute extends Component {
             <Route exact path="/" element ={<HomePage/>} ></Route>
             <Route path="/login" element={<UserLoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
+            <Route path="/movies" element={<MoviesPage />} />
+            <Route path="/tvseries" element={<TvSeriesPage />} />
+            <Route path="/searchmovies" element={<MoviesSearchPage />} />
             <Route path="/purchase" element={<PurchasePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />

@@ -9,6 +9,12 @@ class AppURL{
 
   static GetStarted = AppURL.BaseURL+"/getstarted";
 
+  static GetMovies= AppURL.BaseURL+"/getmovies";
+
+  static GetSeries= AppURL.BaseURL+"/tvseries";
+  
+  static SearchMovies= AppURL.BaseURL+"/searchmovies";
+
   static Register = AppURL.BaseURL+"/signup";
 
   static Login = AppURL.BaseURL+"/login";
