@@ -10,8 +10,10 @@ import RefundPage from '../pages/RefundPage';
 import MoviesPage from '../pages/MoviesPage';
 import TvSeriesPage from '../pages/TvSeriesPage';
 import MoviesSearchPage from '../pages/MoviesSearchPage';
+import ResetPasswordPage from '../pages/ResetPasswordPage';
+import ForgotPasswordPage from '../pages/ForgotPasswordPage';
+import RowPage from '../pages/RowPage';
 
-// double click to select a line, then with your alt key, you can select multiple lines
 export class AppRoute extends Component {
   render() {
     return (
@@ -23,6 +25,11 @@ export class AppRoute extends Component {
             <Route path="/movies" element={<MoviesPage />} />
             <Route path="/tvseries" element={<TvSeriesPage />} />
             <Route path="/searchmovies" element={<MoviesSearchPage />} />
+            <Route path="/forgotpassword" element={<ForgotPasswordPage />} />
+            <Route path="/resetpassword" element={<ResetPasswordPage />} />
+            <Route path="/row" element={<RowPage />} />
+
+
             <Route path="/purchase" element={<PurchasePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />

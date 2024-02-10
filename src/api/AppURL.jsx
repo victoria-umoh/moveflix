@@ -23,6 +23,22 @@ class AppURL{
 
   static ResetPassword = AppURL.BaseURL+"/reset-password";
 
+  static NetflixOriginals = AppURL.BaseURL+"/netflix-originals";
+
+  static Trending = AppURL.BaseURL+"/trending-movies";
+
+  static TopRated = AppURL.BaseURL+"/toprated-movies";
+
+  static Action = AppURL.BaseURL+"/action-movies";
+
+  static Comedy = AppURL.BaseURL+"/comedy-movies";
+
+  static Horror = AppURL.BaseURL+"/horror-movies";
+
+  static Romance = AppURL.BaseURL+"/romance-movies";
+  
+  static Documentary = AppURL.BaseURL+"/documentaries";
+
 
 
 }

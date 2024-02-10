@@ -57,25 +57,11 @@ const UserLogin = () => {
                                         <Form onSubmit={handleSubmit} className='onboardForm'>
                                             <h1 className='text-left'> Sign In </h1>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                                <Form.Control
-                                                    type="text"
-                                                    name='email'
-                                                    className='login-input'
-                                                    placeholder='Enter Your Email'
-                                                    value={formData.email}
-                                                    onChange={handleChange}
-                                                />
-                                                <Form.Control
-                                                    type="password"
-                                                    name='password'
-                                                    className='login-input'
-                                                    placeholder='Password'
-                                                    value={formData.password}
-                                                    onChange={handleChange}
-                                                />
+                                                <Form.Control type="text" name='email' className='login-input' placeholder='Enter Your Email' value={formData.email} onChange={handleChange} />
+                                                <Form.Control type="password" name='password' className='login-input' placeholder='Password' value={formData.password} onChange={handleChange} />
                                                 <Button type='submit' className='login-button mt-2' variant="danger" size="lg">Login</Button>
                                             </Form.Group>
-                                            <p><Link to='/forgotPassword' className='forgotpass'>Forgot Password?</Link></p>
+                                            <p><Link to='/forgotpassword' className='forgotpass'>Forgot Password?</Link></p>
                                             <Form.Group className="mb-3">
                                                 <Form.Check type="checkbox" name='remember_me' label="Remember Me" />
                                             </Form.Group>
